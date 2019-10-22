@@ -1,0 +1,23 @@
+/*
+    demo
+    ---------------------------
+
+    Jason Project File
+
+    This file defines the initial state of the MAS
+
+    Jason 
+    octubre 21, 2019 - 15:53:18
+*/
+
+MAS demo {
+
+    environment: jaca.CartagoEnvironment("standalone")
+
+    agents:
+        saludador agentArchClass jaca.CAgentArch;
+		
+	aslSourcePath: "src/asl";
+
+}
+
